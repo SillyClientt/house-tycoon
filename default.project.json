@@ -1,0 +1,48 @@
+{
+  "name": "HousingTycoon",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "Modules": {
+        "$path": "src/ReplicatedStorage/Modules"
+      },
+      "Remotes": {
+        "$path": "src/ReplicatedStorage/Remotes"
+      }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+      "Modules": {
+        "$path": "src/ServerStorage/Modules"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "Runtime": {
+        "$path": "src/ServerScriptService/Runtime.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "Runtime": {
+          "$path": "src/StarterPlayerScripts/Runtime.client.lua"
+        }
+      }
+    },
+    "StarterGui": {
+      "$className": "StarterGui",
+      "$ignoreUnknownInstances": true,
+      "HUD": {
+        "$path": "src/StarterGui/HUD.rbxmx"
+      }
+    }
+  }
+}
